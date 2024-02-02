@@ -1,0 +1,1 @@
+import{a as o,g as a}from"./axios.955f41b0.js";const n=async({params:e})=>{try{const{data:{pdf:r,download_url:t}}=await o.get(`/pdfs/${e.id}`);return{document:r,documentUrl:t}}catch(r){return{error:a(r)}}},s=Object.freeze(Object.defineProperty({__proto__:null,load:n},Symbol.toStringTag,{value:"Module"}));export{s as _,n as l};
